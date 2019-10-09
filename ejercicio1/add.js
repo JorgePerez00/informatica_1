@@ -32,10 +32,10 @@ function eje(x,vo) {
 		}
 		function Most(){
 			with(this){
-			console.log("el valor de la altura maxima que alcanza el objeto es: "+hmax);
-			console.log("el valor del tiempo de vuelo des de q se lanza hasta cuando recupera el nivel de lanzamiento es: "+tv1);
-			console.log("el valor del tiempo total de vuelo desde que se lanza hasta que llega al suelo es de: "+tvt);
-			console.log("el valor de la velocidad a la que llega el objeto al suelo es: "+vf);
+			document.write("el valor de la altura maxima que alcanza el objeto es: "+hmax);
+			document.write("el valor del tiempo de vuelo des de q se lanza hasta cuando recupera el nivel de lanzamiento es: "+tv1);
+			document.write("el valor del tiempo total de vuelo desde que se lanza hasta que llega al suelo es de: "+tvt);
+			document.write("el valor de la velocidad a la que llega el objeto al suelo es: "+vf);
 		}
 	}
 }
